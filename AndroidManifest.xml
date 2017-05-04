@@ -3404,7 +3404,6 @@
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
 
-        <!-- This is the longest AndroidManifest.xml ever. -->
        <!-- DU Themes -->
        <activity android:name="Settings$StartThemesActivity"
             android:label="@string/du_themes_title"
@@ -3419,5 +3418,20 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/du_themes_summary"/>
         </activity>
+
+        <!-- Kangie's Lab -->
+        <activity android:name="Settings$ZenHubSettingsActivity"
+            android:label="@string/zenhub_settings_title"
+            android:icon="@drawable/ic_dashboard_zenx"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="31">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.zenx.zen.hub.ZenHub" />
+        </activity>
+
+        <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

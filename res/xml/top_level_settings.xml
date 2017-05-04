@@ -21,6 +21,14 @@
     android:key="top_level_settings">
 
     <Preference
+        android:key="top_level_zenhub_settings"
+        android:title="@string/zenhub_settings_title"
+        android:summary="@string/zenhub_settings_summary"
+        android:icon="@drawable/ic_dashboard_zenx"
+        android:order="-130"
+        android:fragment="com.zenx.zen.hub.ZenHub;"/>
+
+    <Preference
         android:key="top_level_themes"
         android:title="@string/du_themes_title"
         android:summary="@string/du_themes_summary"
