@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Kangie's Lab -->
-    <string name="zen_hub_title">Kangie"&#39;"s Lab</string>
-    <string name="zen_hub_dashboard_summary">...Time for Some Kang...</string>
+    <string name="zenhub_settings_title">Kangie"&#39;"s Lab</string>
+    <string name="zenhub_settings_summary">...Time for Some Kang...</string>
 
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
